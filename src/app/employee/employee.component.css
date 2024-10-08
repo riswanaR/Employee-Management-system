@@ -1,0 +1,98 @@
+.employee-list {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f7f8fa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.employee-list h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.employee-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.employee-list li {
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employee-list li:last-child {
+    border-bottom: none;
+}
+
+.employee-list span {
+    margin-right: 15px;
+}
+
+.employee-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.employee-department, 
+.employee-salary, 
+.employee-gender, 
+.employee-address {
+    color: #777;
+    font-style: italic;
+}
+
+.row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-md-6 {
+    padding: 10px;
+}
+
+select.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+select.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.app-employee {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+h1.text-center {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}

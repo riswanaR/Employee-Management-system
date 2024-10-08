@@ -1,0 +1,12 @@
+<div class="employee-list">
+  <h2>Employee List</h2>
+  <ul>
+    <li *ngFor="let employee of employees">
+      <span class="employee-name">{{ employee.employeName }}</span>
+      <span class="employee-department">{{ employee.department }}</span>
+      <span class="employee-salary">{{ employee.salary }}</span>
+      <span class="employee-gender">{{ employee.gender }}</span>
+      <span class="employee-address">{{ employee.address }}</span>
+    </li>
+  </ul>
+</div>
